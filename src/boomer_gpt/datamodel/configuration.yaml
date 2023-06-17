@@ -1,0 +1,234 @@
+name: Prefixmap
+description: Prefixmap
+id: https://w3id.org/Prefixmap
+imports:
+- linkml:types
+prefixes:
+  linkml: https://w3id.org/linkml/
+  boomergpt: https://w3id.org/ontogpt/boomergpt/
+default_prefix: boomergpt
+types:
+  OntologySelector:
+    typeof: string
+    base: str
+  FileSystemPath:
+    typeof: string
+    base: str
+  LanguageModelIdentifier:
+    typeof: string
+    base: str
+slots:
+  prefix:
+    examples:
+      - value: MA
+    identifier: true
+    range: string
+  prefix_expansion:
+    examples:
+    - value: http://purl.obolibrary.org/obo/MA_
+    range: uri
+  id:
+    examples:
+    - value: uberon
+    identifier: true
+    range: string
+  prefixmaps:
+    range: PrefixExpansion
+    multivalued: true
+    inlined: true
+  predicate_weights:
+    range: PredicateWeight
+    multivalued: true
+    inlined: true
+  sources:
+    range: string
+    multivalued: true
+  term_query:
+    examples:
+    - value: .desc//p=i 'anatomical entity'
+    range: string
+  bridging:
+    range: boolean
+    description: For ontologies that serve to bridge and are not to be aligned
+  working_directory:
+    examples:
+    - value: .
+    range: FileSystemPath
+  lexical_index_path:
+    examples:
+    - value: lexical-index.yaml
+    range: FileSystemPath
+  lexmatch_rules_path:
+    range: FileSystemPath
+  weighting_rules:
+    examples:
+    - value: any
+    range: Any
+  synonymizer_rules:
+    examples:
+    - value: any
+    range: Any
+  configuration_files:
+    range: FileSystemPath
+    multivalued: true
+  max_clique_size:
+    examples:
+    - value: '100'
+    range: integer
+  window_count:
+    examples:
+    - value: '3'
+    range: integer
+  runs:
+    examples:
+    - value: '2'
+    range: integer
+  exhaustive_search_limit:
+    range: integer
+  subsequent_solutions:
+    examples:
+    - value: '3'
+    range: integer
+  weight:
+    examples:
+    - value: '1.5'
+    range: float
+  max_invocations:
+    examples:
+    - value: '100'
+    range: integer
+  invocation_threshold:
+    examples:
+    - value: '0.5'
+    range: float
+  probability_decay:
+    description: >-
+      Rate at which the probability of independence decays with each piece of evidence
+    examples:
+    - value: '0.5'
+    range: float
+  predicate_mappings:
+    range: PredicateMapping
+    multivalued: true
+  models:
+    examples:
+    - value: '[''gpt-4'']'
+    range: LanguageModelIdentifier
+    multivalued: true
+  name:
+    examples:
+    - value: test
+    range: string
+  source_directory:
+    range: FileSystemPath
+  description:
+    examples:
+    - value: test
+    range: string
+  ontologies:
+    examples:
+    - value: '[''$ref:Ontology'', ''$ref:Ontology'', ''$ref:Ontology'']'
+    multivalued: true
+    range: Ontology
+    inlined: true
+  lexmatch:
+    range: LexMatchConfiguration
+  logmap:
+    range: LogMapConfiguration
+  declique:
+    range: DecliqueConfiguration
+  boomer:
+    range: BoomerConfiguration
+  ontogpt:
+    range: OntoGPTConfiguration
+  source_predicate:
+  target_predicate:
+  confidence:
+    range: float
+classes:
+  Any:
+    class_uri: linkml:Any
+  PrefixExpansion:
+    slots:
+    - prefix
+    - prefix_expansion
+  Ontology:
+    slots:
+    - id
+    - prefixmaps
+    - sources
+    - term_query
+    - bridging
+    - prefix_expansion
+  PredicateMapping:
+    slots:
+      - source_predicate
+      - target_predicate
+      - confidence
+  LexMatchConfiguration:
+    slots:
+    - working_directory
+    - lexical_index_path
+    - lexmatch_rules_path
+    - weighting_rules
+    - synonymizer_rules
+    - probability_decay
+    - predicate_mappings
+  LogMapConfiguration:
+    slots:
+    - working_directory
+    - configuration_files
+  DecliqueConfiguration:
+    slots:
+    - max_clique_size
+  BoomerConfiguration:
+    slots:
+    - working_directory
+    - window_count
+    - runs
+    - exhaustive_search_limit
+    - subsequent_solutions
+    unique_keys:
+      window_count_key:
+        unique_key_name: window_count_key
+        unique_key_slots:
+        - window_count
+      runs_key:
+        unique_key_name: runs_key
+        unique_key_slots:
+        - runs
+      exhaustive_search_limit_key:
+        unique_key_name: exhaustive_search_limit_key
+        unique_key_slots:
+        - exhaustive_search_limit
+      subsequent_solutions_key:
+        unique_key_name: subsequent_solutions_key
+        unique_key_slots:
+        - subsequent_solutions
+  OntoGPTConfiguration:
+    slots:
+    - weight
+    - max_invocations
+    - invocation_threshold
+    - models
+  PredicateWeight:
+    attributes:
+      predicate:
+        key: true
+      weight:
+        range: float
+  MainConfiguration:
+    slots:
+    - name
+    - description
+    - source_directory
+    - prefixmaps
+    - predicate_weights
+    - ontologies
+    - lexmatch
+    - logmap
+    - declique
+    - boomer
+    - ontogpt
+    tree_root: true
+

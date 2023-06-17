@@ -1,0 +1,24 @@
+{
+  "template": "https://github.com/monarch-initiative/monarch-project-template/",
+  "commit": "7a5148b11fd6f4f70da7ef921789e0d5fe720e01",
+  "checkout": null,
+  "context": {
+    "cookiecutter": {
+      "project_name": "boomer-gpt",
+      "github_org_name": "monarch-initiative",
+      "__project_slug": "boomer_gpt",
+      "project_description": "Bayesian OWL Ontology Merging + LLMs",
+      "min_python_version": "3.9",
+      "file_name": "main",
+      "greeting_recipient": "World",
+      "full_name": "Author 1",
+      "email": "author@org.org",
+      "__author": "Author 1 <author@org.org>",
+      "license": "BSD-3",
+      "github_token_for_doc_deployment": "GH_TOKEN",
+      "github_token_for_pypi_deployment": "PYPI_TOKEN",
+      "_template": "https://github.com/monarch-initiative/monarch-project-template/"
+    }
+  },
+  "directory": null
+}

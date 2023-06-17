@@ -1,0 +1,60 @@
+name: stages
+description: stages
+
+predicate_weights:
+  "skos:exactMatch":
+    weight: 0.0
+  "skos:broadMatch":
+    weight: -1.0
+  "skos:narrowMatch":
+    weight: -1.0
+  "skos:relatedMatch":
+    weight: 1.0
+ontologies:
+  UBERON:
+    prefix_expansion: http://purl.obolibrary.org/obo/UBERON_
+    bridging: true
+  ZFA:
+    prefix_expansion: http://purl.obolibrary.org/obo/ZFA_
+  EMAPA:
+    prefix_expansion: http://purl.obolibrary.org/obo/EMAPA_
+  WBbt:
+    prefix_expansion: http://purl.obolibrary.org/obo/WBbt_
+  FBbt:
+    prefix_expansion: http://purl.obolibrary.org/obo/FBbt_
+  XAO:
+    prefix_expansion: http://purl.obolibrary.org/obo/XAO_
+  PO:
+    prefix_expansion: http://purl.obolibrary.org/obo/PO_
+  CL:
+    prefix_expansion: http://purl.obolibrary.org/obo/CL_
+    bridging: true
+lexmatch:
+  working_directory: .
+  lexical_index_path: lexical-index.yaml
+  lexmatch_rules_path: lexmatch_rules.yaml
+  weighting_rules:
+  synonymizer_rules:
+    todo:
+  predicate_mappings:
+    - source_predicate: skos:closeMatch
+      target_predicate: skos:exactMatch
+      confidence: 0.8
+logmap:
+  working_directory: .
+  configuration_files:
+    - ./test.yaml
+declique:
+  max_clique_size: 100
+boomer:
+  working_directory: .
+  window_count: 3
+  runs: 2
+  exhaustive_search_limit:
+  subsequent_solutions: 3
+ontogpt:
+  weight: 1.5
+  max_invocations: 100
+  invocation_threshold: 0.5
+  models:
+    - gpt-4
