@@ -1,0 +1,500 @@
+# curie_map:
+#   DOID: http://purl.obolibrary.org/obo/DOID_
+#   MONDO: http://purl.obolibrary.org/obo/MONDO_
+#   NCIT: http://purl.obolibrary.org/obo/NCIT_
+#   oio: http://www.geneontology.org/formats/oboInOwl#
+#   owl: http://www.w3.org/2002/07/owl#
+#   rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+#   rdfs: http://www.w3.org/2000/01/rdf-schema#
+#   semapv: https://w3id.org/semapv/
+#   skos: http://www.w3.org/2004/02/skos/core#
+#   sssom: https://w3id.org/sssom/
+# license: https://w3id.org/sssom/license/unspecified
+# mapping_set_id: https://w3id.org/sssom/mappings/322e3cb5-4208-4c26-9ae7-cb22a5efa972
+subject_id	predicate_id	object_id	mapping_justification	confidence	match_string
+DOID:0001816	skos:broadMatch	MONDO:0003022	semapv:CompositeMatching	0.8	angiosarcoma
+DOID:0001816	skos:exactMatch	MONDO:0016982	semapv:CompositeMatching	0.9982232074007357	icdo:9120/3|mesh:d006394|angiosarcoma|hemangiosarcoma|mondo:0016982|doid:0001816
+DOID:0001816	skos:exactMatch	NCIT:C3088	semapv:CompositeMatching	0.9774668342766498	angiosarcoma|hemangiosarcoma|mondo:0016982
+DOID:0001816	skos:exactMatch	NCIT:C60414	semapv:CompositeMatching	0.8	hemangiosarcoma
+DOID:0001816	skos:exactMatch	NCIT:C9040	semapv:CompositeMatching	0.8	angiosarcoma
+DOID:0001816	skos:exactMatch	NCIT:C9174	semapv:CompositeMatching	0.8	angiosarcoma
+DOID:0002116	skos:exactMatch	MONDO:0005085	semapv:CompositeMatching	0.9788751571343591	pterygium|surfer's eye|mondo:0005085|doid:0002116
+DOID:0002116	skos:exactMatch	NCIT:C133744	semapv:CompositeMatching	0.9248894475888325	pterygium|mondo:0005085
+DOID:0014667	skos:exactMatch	MONDO:0005066	semapv:CompositeMatching	0.9914522061370971	mesh:d008659|metabolic disease|mondo:0005066|doid:0014667|disease of metabolism
+DOID:0014667	skos:exactMatch	NCIT:C3235	semapv:CompositeMatching	0.9	metabolic disease|mondo:0005066
+DOID:0040041	skos:exactMatch	MONDO:0025556	semapv:CompositeMatching	0.75	mondo:0025556|isocyanates allergic asthma
+DOID:0040083	skos:exactMatch	MONDO:0025598	semapv:CompositeMatching	0.9125	chlamydia pneumonia|mondo:0025598|doid:0040083
+DOID:0040084	skos:exactMatch	MONDO:0005972	semapv:CompositeMatching	0.9742647549685309	icd10cm:j13|mondo:0005972|doid:0040084|streptococcus pneumonia
+DOID:0040085	skos:exactMatch	MONDO:0005229	semapv:CompositeMatching	0.75006103515625	mondo:0005229|doid:0040085|bacterial sepsis
+DOID:0040086	skos:exactMatch	MONDO:0022529	semapv:CompositeMatching	0.971875	polyomavirus associated nephropathy|pvan|mondo:0022529|doid:0040086
+DOID:0040087	skos:exactMatch	MONDO:0000774	semapv:CompositeMatching	0.9	autoimmune peripheral neuropathy|mondo:0000774
+DOID:0040088	skos:exactMatch	MONDO:0031012	semapv:CompositeMatching	0.9248894475888325	autoimmune uveitis|mondo:0031012
+DOID:0040089	skos:exactMatch	MONDO:0031013	semapv:CompositeMatching	0.9248894475888325	autoimmune optic neuritis|mondo:0031013
+DOID:0040090	skos:exactMatch	MONDO:0031014	semapv:CompositeMatching	0.9248894475888325	autoimmune gastritis|mondo:0031014
+DOID:0040090	skos:exactMatch	NCIT:C95752	semapv:CompositeMatching	0.9248894475888325	autoimmune gastritis|mondo:0031014
+DOID:0040091	skos:exactMatch	MONDO:0015175	semapv:CompositeMatching	0.9923888433792911	mesh:d000081012|autoimmune pancreatitis|mondo:0015175|doid:0040091
+DOID:0040092	skos:exactMatch	MONDO:0020655	semapv:CompositeMatching	0.9436670856916244	juvenile ankylosing spondylitis|mondo:0020655|doid:0040092
+DOID:0040093	skos:broadMatch	MONDO:0016474	semapv:CompositeMatching	0.8	dil
+DOID:0040093	skos:exactMatch	MONDO:0016474	semapv:CompositeMatching	0.9950682811692346	ordo:231111|drug-induced lupus erythematosus|dile|mondo:0016474|doid:0040093
+DOID:0040093	skos:exactMatch	NCIT:C114354	semapv:CompositeMatching	0.5	mondo:0016474
+DOID:0040094	skos:exactMatch	MONDO:0030700	semapv:CompositeMatching	0.9248894475888325	autoimmune glomerulonephritis|mondo:0030700
+DOID:0040095	skos:exactMatch	MONDO:0030701	semapv:CompositeMatching	0.9248894475888325	autoimmune cardiomyopathy|mondo:0030701
+DOID:0040096	skos:exactMatch	MONDO:0030702	semapv:CompositeMatching	0.9248894475888325	autoimmune atherosclerosis|mondo:0030702
+DOID:0040097	skos:exactMatch	MONDO:0030703	semapv:CompositeMatching	0.9436670856916244	autoimmune vasculitis|mondo:0030703|doid:0040097
+DOID:0040098	skos:exactMatch	MONDO:0006558	semapv:CompositeMatching	0.7500001192092896	mondo:0006558|doid:0040098|pemphigus gestationis
+DOID:0040098	skos:exactMatch	NCIT:C85003	semapv:CompositeMatching	0.5	mondo:0006558
+DOID:0040099	skos:exactMatch	MONDO:0025514	semapv:CompositeMatching	0.9980296378188274	icd10cm:l95.0|icd9cm:709.1|livedoid vasculopathy|livedoid vasculitis|mondo:0025514|doid:0040099
+DOID:0040100	skos:exactMatch	MONDO:0018465	semapv:CompositeMatching	0.971875	insulin autoimmune syndrome|hirata disease|mondo:0018465|doid:0040100
+DOID:0050004	skos:exactMatch	MONDO:0000222	semapv:CompositeMatching	0.9436670856916244	seminal vesicle acute gonorrhea|mondo:0000222|doid:0050004
+DOID:0050012	skos:exactMatch	MONDO:0017941	semapv:CompositeMatching	0.9788751571343591	chikungunya|chikungunya fever|mondo:0017941|doid:0050012
+DOID:0050012	skos:exactMatch	NCIT:C128422	semapv:CompositeMatching	0.9248894475888325	chikungunya|mondo:0017941
+DOID:0050025	skos:exactMatch	MONDO:0005118	semapv:CompositeMatching	0.965546875	human granulocytic ehrlichiosis|human granulocytic anaplasmosis|mondo:0005118|hge
+DOID:0050026	skos:exactMatch	MONDO:0000225	semapv:CompositeMatching	0.9436945919974391	human monocytic ehrlichiosis|mondo:0000225|ehrlichiosis chafeensis|doid:0050026
+DOID:0050032	skos:exactMatch	MONDO:0000226	semapv:CompositeMatching	0.8497788951776651	mineral metabolism disease
+DOID:0050032	skos:exactMatch	MONDO:0024301	semapv:CompositeMatching	0.75	mondo:0024301|mineral metabolism disease
+DOID:0050035	skos:exactMatch	MONDO:0000227	semapv:CompositeMatching	0.9437771109148829	african tick-bite fever|mondo:0000227|rickettsia africae spotted fever|south african tick-bite fever
+DOID:0050035	skos:exactMatch	MONDO:0024472	semapv:CompositeMatching	0.8	south african tick-bite fever
+DOID:0050041	skos:exactMatch	MONDO:0024473	semapv:CompositeMatching	0.9248894475888325	astrakhan spotted fever|mondo:0024473
+DOID:0050042	skos:exactMatch	MONDO:0000229	semapv:CompositeMatching	0.9248894475888325	indian tick typhus|mondo:0000229
+DOID:0050043	skos:exactMatch	MONDO:0000230	semapv:CompositeMatching	0.9436670856916244	israeli tick typhus|mondo:0000230|israeli spotted fever
+DOID:0050046	skos:exactMatch	MONDO:0000231	semapv:CompositeMatching	0.9774668342766498	far eastern spotted fever|rickettsia heilongjiangensis spotted fever|mondo:0000231
+DOID:0050047	skos:exactMatch	MONDO:0000232	semapv:CompositeMatching	0.9788751571343591	flinders island spotted fever|thai tick typhus|mondo:0000232|fisf
+DOID:0050050	skos:exactMatch	MONDO:0000233	semapv:CompositeMatching	0.9781709957055045	japanese spotted fever|rickettsia japonica spotted fever|mondo:0000233|oriental spotted fever
+DOID:0050051	skos:exactMatch	MONDO:0000234	semapv:CompositeMatching	0.9436670856916244	rickettsia parkeri spotted fever|mondo:0000234|maculatum infection
+DOID:0050052	skos:exactMatch	MONDO:0019359	semapv:CompositeMatching	0.993786813884561	mesh:d012373|rocky mountain spotted fever|mondo:0019359|tick typhus|brazillian spotted|choix|exanthematic typhus of sao paulo|fiebre maculosa|fiebre manchada|sao paulo typhus|so paulo fever|tobia fever|doid:0050052
+DOID:0050052	skos:exactMatch	NCIT:C128410	semapv:CompositeMatching	0.9248894475888325	rocky mountain spotted fever|mondo:0019359
+DOID:0050059	skos:exactMatch	MONDO:0000236	semapv:CompositeMatching	0.9248894475888325	oropharyngeal anthrax|mondo:0000236
+DOID:0050061	skos:exactMatch	MONDO:0006752	semapv:CompositeMatching	0.9917279411764706	mesh:d004887|erysipeloid|mondo:0006752|doid:0050061
+DOID:0050072	skos:exactMatch	MONDO:0000239	semapv:CompositeMatching	0.993579704619266	mesh:c000656784|adiaspiromycosis|mondo:0000239|doid:0050072
+DOID:0050073	skos:exactMatch	MONDO:0000240	semapv:CompositeMatching	0.9248894475888325	invasive aspergillosis|mondo:0000240
+DOID:0050083	skos:exactMatch	MONDO:0000241	semapv:CompositeMatching	0.9937868109218704	mesh:c536166|keshan disease|mondo:0000241|doid:0050083
+DOID:0050096	skos:exactMatch	MONDO:0000242	semapv:CompositeMatching	0.9950682811692346	mesh:c000656825|tinea barbae|dermatophytosis of beard|mondo:0000242|doid:0050096
+DOID:0050097	skos:exactMatch	MONDO:0000243	semapv:CompositeMatching	0.9248894475888325	ectothrix infectious disease|mondo:0000243
+DOID:0050105	skos:exactMatch	MONDO:0000244	semapv:CompositeMatching	0.9248894475888325	endothrix infectious disease|mondo:0000244
+DOID:0050116	skos:exactMatch	MONDO:0000245	semapv:CompositeMatching	0.9248894475888325	tinea imbricata|mondo:0000245
+DOID:0050117	skos:exactMatch	MONDO:0005550	semapv:CompositeMatching	0.9125000834465027	infectious disease|mondo:0005550|doid:0050117|disease by infectious agent
+DOID:0050117	skos:exactMatch	NCIT:C26726	semapv:CompositeMatching	0.9	infectious disease|mondo:0005550
+DOID:0050117	skos:exactMatch	NCIT:C39738	semapv:CompositeMatching	0.8	infectious disease
+DOID:0050118	skos:exactMatch	MONDO:0019378	semapv:CompositeMatching	0.9952902900902936	mesh:d004670|la crosse encephalitis|california encephalitis|california virus encephalitis|neuroinvasive california encephalitis virus infection|mondo:0019378|doid:0050118
+DOID:0050120	skos:exactMatch	MONDO:0015540	semapv:CompositeMatching	0.9250000357627869	hemophagocytic lymphohistiocytosis|mondo:0015540|haemophagocytic syndrome|doid:0050120
+DOID:0050120	skos:exactMatch	MONDO:0015541	semapv:CompositeMatching	0.9411764705882352	ordo:540
+DOID:0050120	skos:exactMatch	NCIT:C34792	semapv:CompositeMatching	0.9248894475888325	hemophagocytic lymphohistiocytosis|mondo:0015540
+DOID:0050120	skos:exactMatch	NCIT:C35439	semapv:CompositeMatching	0.5	mondo:0015540
+DOID:0050125	skos:exactMatch	MONDO:0000248	semapv:CompositeMatching	0.9774668342766498	dengue shock syndrome|dss|mondo:0000248
+DOID:0050125	skos:exactMatch	NCIT:C75865	semapv:CompositeMatching	0.8	dss
+DOID:0050125	skos:exactMatch	NCIT:C75901	semapv:CompositeMatching	0.8	dss
+DOID:0050127	skos:exactMatch	MONDO:0005961	semapv:CompositeMatching	0.9436670856916244	sinusitis|mondo:0005961|doid:0050127
+DOID:0050127	skos:exactMatch	NCIT:C143832	semapv:CompositeMatching	0.8	sinusitis
+DOID:0050127	skos:exactMatch	NCIT:C35024	semapv:CompositeMatching	0.9248894475888325	sinusitis|mondo:0005961
+DOID:0050129	skos:exactMatch	MONDO:0000249	semapv:CompositeMatching	0.9248894475888325	secretory diarrhea|mondo:0000249
+DOID:0050130	skos:exactMatch	MONDO:0000250	semapv:CompositeMatching	0.9	osmotic diarrhea|mondo:0000250
+DOID:0050131	skos:broadMatch	MONDO:0044762	semapv:CompositeMatching	0.8	motility-related diarrhea
+DOID:0050131	skos:exactMatch	MONDO:0000251	semapv:CompositeMatching	0.8	motility-related diarrhea
+DOID:0050131	skos:exactMatch	MONDO:0044762	semapv:CompositeMatching	0.5	mondo:0044762
+DOID:0050132	skos:exactMatch	MONDO:0000252	semapv:CompositeMatching	0.9248894475888325	inflammatory diarrhea|mondo:0000252
+DOID:0050133	skos:exactMatch	MONDO:0000253	semapv:CompositeMatching	0.988235294117647	mesh:d010854|piedra
+DOID:0050133	skos:exactMatch	MONDO:0024268	semapv:CompositeMatching	0.9788751571343591	superficial mycosis|steroid-modified tinea infection|mondo:0024268|doid:0050133
+DOID:0050133	skos:narrowMatch	MONDO:0000253	semapv:CompositeMatching	0.8	steroid-modified tinea infection
+DOID:0050133	skos:narrowMatch	MONDO:0024268	semapv:CompositeMatching	0.8	piedra
+DOID:0050134	skos:exactMatch	MONDO:0000254	semapv:CompositeMatching	0.9248894475888325	cutaneous mycosis|mondo:0000254
+DOID:0050135	skos:exactMatch	MONDO:0000255	semapv:CompositeMatching	0.9248894475888325	subcutaneous mycosis|mondo:0000255
+DOID:0050136	skos:exactMatch	MONDO:0000256	semapv:CompositeMatching	0.9248894475888325	systemic mycosis|mondo:0000256
+DOID:0050138	skos:exactMatch	MONDO:0005424	semapv:CompositeMatching	0.9411764705882352	mesh:d004604
+DOID:0050138	skos:exactMatch	MONDO:0005425	semapv:CompositeMatching	0.9436670856916244	podoconiosis|mondo:0005425|doid:0050138
+DOID:0050140	skos:exactMatch	MONDO:0000257	semapv:CompositeMatching	0.9248894475888325	acute diarrhea|mondo:0000257
+DOID:0050141	skos:exactMatch	MONDO:0015805	semapv:CompositeMatching	0.9248894475888325	intestinal botulism|mondo:0015805
+DOID:0050143	skos:exactMatch	MONDO:0000259	semapv:CompositeMatching	0.9248894475888325	asymptomatic dengue|mondo:0000259
+DOID:0050144	skos:exactMatch	MONDO:0009484	semapv:CompositeMatching	0.9705882352941175	ordo:98861|kartagener syndrome
+DOID:0050144	skos:exactMatch	MONDO:0016575	semapv:CompositeMatching	0.9934340533088235	mesh:d007619|kartagener's syndrome|kartagener syndrome|mondo:0016575|doid:0050144
+DOID:0050144	skos:exactMatch	NCIT:C84797	semapv:CompositeMatching	0.9248894475888325	kartagener syndrome|mondo:0016575
+DOID:0050145	skos:exactMatch	MONDO:0000261	semapv:CompositeMatching	0.9923888433792911	icd10cm:j35.02|adenoiditis|mondo:0000261|doid:0050145
+DOID:0050145	skos:narrowMatch	MONDO:0000261	semapv:CompositeMatching	0.8	chronic adenoiditis
+DOID:0050147	skos:exactMatch	MONDO:0000262	semapv:CompositeMatching	0.9937870005333534	mesh:d059249|otomycosis|mondo:0000262|singapore ear|doid:0050147
+DOID:0050148	skos:exactMatch	MONDO:0000263	semapv:CompositeMatching	0.9436670856916244	laryngotracheitis|mondo:0000263|doid:0050148
+DOID:0050148	skos:exactMatch	NCIT:C26735	semapv:CompositeMatching	0.8	laryngotracheitis
+DOID:0050150	skos:exactMatch	MONDO:0020487	semapv:CompositeMatching	0.9248894475888325	pontiac fever|mondo:0020487
+DOID:0050150	skos:exactMatch	NCIT:C128335	semapv:CompositeMatching	0.9248894475888325	pontiac fever|mondo:0020487
+DOID:0050152	skos:exactMatch	MONDO:0000265	semapv:CompositeMatching	0.9934761514679639	mesh:d011015|aspiration pneumonia|mondo:0000265|doid:0050152
+DOID:0050152	skos:exactMatch	MONDO:0002572	semapv:CompositeMatching	0.9705882352941175	mesh:d011015|aspiration pneumonia
+DOID:0050152	skos:exactMatch	NCIT:C34932	semapv:CompositeMatching	0.8	aspiration pneumonia
+DOID:0050153	skos:exactMatch	MONDO:0000266	semapv:CompositeMatching	0.9248894475888325	pulmonary aspergilloma|mondo:0000266
+DOID:0050156	skos:exactMatch	MONDO:0800029	semapv:CompositeMatching	0.9984044778264072	efo:0000768|icd10cm:j84.112|mesh:d054990|omim:178500|cryptogenic fibrosing alveolitis|fibrocystic pulmonary dysplasia|idiopathic pulmonary fibrosis, familial|mondo:0800029|doid:0050156
+DOID:0050156	skos:exactMatch	NCIT:C35716	semapv:CompositeMatching	0.9248894475888325	idiopathic pulmonary fibrosis|mondo:0800029
+DOID:0050157	skos:exactMatch	MONDO:0015264	semapv:CompositeMatching	0.9981155918558261	icd10cm:j84.116|mesh:d018549|cryptogenic organizing pneumonia|bronchiolitis obliterans organizing pneumonia|cryptogenic organizing pneumonitis|idiopathic bronchiolitis obliterans with organizing pneumonia|mondo:0015264|doid:0050157
+DOID:0050157	skos:exactMatch	MONDO:0015265	semapv:CompositeMatching	0.8	boop
+DOID:0050157	skos:exactMatch	NCIT:C62586	semapv:CompositeMatching	0.9831001257074873	cryptogenic organizing pneumonia|boop|bronchiolitis obliterans organizing pneumonia|mondo:0015264
+DOID:0050158	skos:exactMatch	MONDO:0009887	semapv:CompositeMatching	0.9982327947075299	mesh:c562470|omim:263000|desquamative interstitial pneumonia|familial desquamative interstitial pneumonitis|rbild|respiratory bronchiolitis-associated interstitial lung disease|mondo:0009887|doid:0050158
+DOID:0050158	skos:exactMatch	NCIT:C35288	semapv:CompositeMatching	0.9774668342766498	desquamative interstitial pneumonia|rbild|mondo:0009887
+DOID:0050159	skos:exactMatch	MONDO:0009537	semapv:CompositeMatching	0.993579704619266	mesh:c562489|lymphoid interstitial pneumonia|mondo:0009537|doid:0050159
+DOID:0050159	skos:exactMatch	NCIT:C27558	semapv:CompositeMatching	0.5	mondo:0009537
+DOID:0050160	skos:exactMatch	MONDO:0016595	semapv:CompositeMatching	0.9937296295151039	mesh:c571912|pulmonary anthrax|respiratory anthrax|wool-sorters' disease|woolsorters' disease|mondo:0016595|doid:0050160|inhalation anthrax
+DOID:0050161	skos:exactMatch	MONDO:0000270	semapv:CompositeMatching	0.925	lower respiratory tract disease|mondo:0000270|doid:0050161
+DOID:0050166	skos:exactMatch	MONDO:0000271	semapv:CompositeMatching	0.9436670856916244	tuberculous salpingitis|mondo:0000271|doid:0050166
+DOID:0050167	skos:exactMatch	MONDO:0009411	semapv:CompositeMatching	0.9952667057946172	omim:240300|autoimmune polyendocrine syndrome type 1|autoimmune polyendocrinopathy-candidiasis-ectodermal dystrophy|autoimmune polyglandular syndrome i|mondo:0009411|whitaker syndrome|doid:0050167
+DOID:0050167	skos:exactMatch	NCIT:C129727	semapv:CompositeMatching	0.9	autoimmune polyendocrine syndrome type 1|mondo:0009411
+DOID:0050168	skos:exactMatch	MONDO:0010012	semapv:CompositeMatching	0.9934340533088235	omim:269200|schmidt syndrome|autoimmune polyendocrine syndrome type 2|mondo:0010012|doid:0050168
+DOID:0050168	skos:exactMatch	NCIT:C129728	semapv:CompositeMatching	0.9	schmidt syndrome|mondo:0010012
+DOID:0050169	skos:exactMatch	MONDO:0005282	semapv:CompositeMatching	0.9436670856916244	cutaneous lupus erythematosus|mondo:0005282|doid:0050169
+DOID:0050169	skos:exactMatch	NCIT:C26819	semapv:CompositeMatching	0.9248894475888325	cutaneous lupus erythematosus|mondo:0005282
+DOID:0050174	skos:exactMatch	MONDO:0000273	semapv:CompositeMatching	0.9	kunjin encephalitis|mondo:0000273
+DOID:0050175	skos:exactMatch	MONDO:0017572	semapv:CompositeMatching	0.9952917154790132	mesh:d004675|tick-borne encephalitis|central european encephalitis|far eastern tbe|russian spring-summer encephalitis|siberian tick-borne encephalitis|taiga encephalitis|west-siberian encephalitis|western european tick-borne encephalitis|mondo:0017572|doid:0050175
+DOID:0050175	skos:exactMatch	NCIT:C34579	semapv:CompositeMatching	0.5	mondo:0017572
+DOID:0050179	skos:exactMatch	MONDO:0000276	semapv:CompositeMatching	0.9248894475888325	powassan encephalitis|mondo:0000276
+DOID:0050185	skos:exactMatch	MONDO:0006545	semapv:CompositeMatching	0.9937868109218704	mesh:d004892|erythema multiforme|mondo:0006545|doid:0050185
+DOID:0050185	skos:exactMatch	NCIT:C143449	semapv:CompositeMatching	0.8	erythema multiforme
+DOID:0050185	skos:exactMatch	NCIT:C3024	semapv:CompositeMatching	0.9248894475888325	erythema multiforme|mondo:0006545
+DOID:0050192	skos:exactMatch	MONDO:0020499	semapv:CompositeMatching	0.5	mondo:0020499
+DOID:0050194	skos:exactMatch	MONDO:0017874	semapv:CompositeMatching	0.9248894475888325	argentine hemorrhagic fever|mondo:0017874
+DOID:0050195	skos:exactMatch	MONDO:0017875	semapv:CompositeMatching	0.9248894475888325	bolivian hemorrhagic fever|mondo:0017875
+DOID:0050196	skos:exactMatch	MONDO:0017876	semapv:CompositeMatching	0.9248894475888325	venezuelan hemorrhagic fever|mondo:0017876
+DOID:0050197	skos:exactMatch	MONDO:0017877	semapv:CompositeMatching	0.9248894475888325	brazilian hemorrhagic fever|mondo:0017877
+DOID:0050198	skos:exactMatch	MONDO:0017878	semapv:CompositeMatching	0.9248894475888325	chapare hemorrhagic fever|mondo:0017878
+DOID:0050199	skos:exactMatch	MONDO:0000282	semapv:CompositeMatching	0.9248894475888325	whitewater arroyo hemorrhagic fever|mondo:0000282
+DOID:0050200	skos:exactMatch	MONDO:0000283	semapv:CompositeMatching	0.75	mondo:0000283|korean hemorrhagic fever
+DOID:0050201	skos:exactMatch	MONDO:0000284	semapv:CompositeMatching	0.75	mondo:0000284|nephropathia epidemica
+DOID:0050201	skos:exactMatch	MONDO:0007416	semapv:CompositeMatching	0.5	nephropathia epidemica
+DOID:0050202	skos:exactMatch	MONDO:0017872	semapv:CompositeMatching	0.9248894475888325	lujo hemorrhagic fever|mondo:0017872
+DOID:0050204	skos:exactMatch	MONDO:0000286	semapv:CompositeMatching	0.9248894475888325	epstein-barr virus hepatitis|mondo:0000286
+DOID:0050211	skos:exactMatch	MONDO:0005460	semapv:CompositeMatching	0.9248894475888325	swine influenza|mondo:0005460
+DOID:0050211	skos:exactMatch	NCIT:C80444	semapv:CompositeMatching	0.9	swine influenza|mondo:0005460
+DOID:0050214	skos:exactMatch	MONDO:0018556	semapv:CompositeMatching	0.9952902900902936	mesh:d015624|lambert-eaton myasthenic syndrome|eaton-lambert syndrome|lambert-eaton syndrome|lems|mondo:0018556|doid:0050214
+DOID:0050214	skos:exactMatch	NCIT:C3155	semapv:CompositeMatching	0.5	mondo:0018556
+DOID:0050218	skos:exactMatch	MONDO:0000288	semapv:CompositeMatching	0.9831001257074873	polycystic echinococcosis|human polycystic hydatid disease|neotropical echinococcosis|mondo:0000288
+DOID:0050222	skos:exactMatch	MONDO:0018039	semapv:CompositeMatching	0.9	selective igm deficiency disease|mondo:0018039
+DOID:0050242	skos:exactMatch	MONDO:0000290	semapv:CompositeMatching	0.9788751571343591	primary amebic meningoencephalitis|naegleria fowleri infection|mondo:0000290|doid:0050242
+DOID:0050246	skos:exactMatch	MONDO:0000291	semapv:CompositeMatching	0.9788764471221288	granulomatous amebic encephalitis|granulomatous amoebic encephalitis|mondo:0000291|acanthamoeba encephalitis|acanthamoeba granulomatous encephalitis|granulomatous amebic encephalitis due to acanthamoeba|doid:0050246
+DOID:0050250	skos:exactMatch	MONDO:0000292	semapv:CompositeMatching	0.9248894475888325	philophthalmiasis|mondo:0000292
+DOID:0050251	skos:exactMatch	MONDO:0000293	semapv:CompositeMatching	0.9248894475888325	coenurosis|mondo:0000293
+DOID:0050253	skos:exactMatch	MONDO:0000294	semapv:CompositeMatching	0.9248894475888325	mesocestoidiasis|mondo:0000294
+DOID:0050254	skos:exactMatch	MONDO:0000295	semapv:CompositeMatching	0.9248894475888325	acanthocephaliasis|mondo:0000295
+DOID:0050256	skos:exactMatch	MONDO:0019143	semapv:CompositeMatching	0.9937868109218704	mesh:c536369|angiostrongyliasis|mondo:0019143|doid:0050256
+DOID:0050256	skos:exactMatch	NCIT:C128394	semapv:CompositeMatching	0.9248894475888325	angiostrongyliasis|mondo:0019143
+DOID:0050259	skos:exactMatch	MONDO:0000297	semapv:CompositeMatching	0.9248894475888325	baylisascariasis|mondo:0000297
+DOID:0050259	skos:exactMatch	NCIT:C128397	semapv:CompositeMatching	0.9248894475888325	baylisascariasis|mondo:0000297
+DOID:0050260	skos:exactMatch	MONDO:0000298	semapv:CompositeMatching	0.9248894475888325	dioctophymiasis|mondo:0000298
+DOID:0050261	skos:exactMatch	MONDO:0000299	semapv:CompositeMatching	0.9248894475888325	thelaziasis|mondo:0000299
+DOID:0050266	skos:exactMatch	MONDO:0019498	semapv:CompositeMatching	0.9937868109218704	mesh:d058285|tungiasis|mondo:0019498|doid:0050266
+DOID:0050268	skos:exactMatch	MONDO:0000301	semapv:CompositeMatching	0.9248894475888325	ophthalmomyiasis|mondo:0000301
+DOID:0050269	skos:exactMatch	MONDO:0005993	semapv:CompositeMatching	0.9917279569541707	mesh:d014247|urogenital trichomonas|mondo:0005993|doid:0050269|trichomonas vaginalis trichomoniasis
+DOID:0050269	skos:exactMatch	NCIT:C35083	semapv:CompositeMatching	0.5	mondo:0005993
+DOID:0050270	skos:exactMatch	MONDO:0030906	semapv:CompositeMatching	0.75	mondo:0030906|trichomonas tenax trichomoniasis
+DOID:0050278	skos:exactMatch	MONDO:0000302	semapv:CompositeMatching	0.9248894475888325	basidiobolomycosis|mondo:0000302
+DOID:0050279	skos:exactMatch	MONDO:0000303	semapv:CompositeMatching	0.9248894475888325	conidiobolomycosis|mondo:0000303
+DOID:0050288	skos:exactMatch	MONDO:0000304	semapv:CompositeMatching	0.9248894475888325	penicilliosis|mondo:0000304
+DOID:0050289	skos:exactMatch	MONDO:0016426	semapv:CompositeMatching	0.9937868109218704	mesh:d060585|fusariosis|mondo:0016426|doid:0050289
+DOID:0050290	skos:exactMatch	MONDO:0000306	semapv:CompositeMatching	0.9937868109218704	mesh:d060586|trichosporonosis|mondo:0000306|doid:0050290
+DOID:0050291	skos:exactMatch	MONDO:0000307	semapv:CompositeMatching	0.9248894475888325	parasitic ichthyosporea infectious disease|mondo:0000307
+DOID:0050292	skos:exactMatch	MONDO:0000308	semapv:CompositeMatching	0.9248894475888325	primary systemic mycosis|mondo:0000308
+DOID:0050304	skos:exactMatch	MONDO:0000309	semapv:CompositeMatching	0.9937868109218704	mesh:d000839|aniseikonia|mondo:0000309|doid:0050304
+DOID:0050308	skos:exactMatch	MONDO:0000310	semapv:CompositeMatching	0.9248894475888325	alkhurma hemorrhagic fever|mondo:0000310
+DOID:0050328	skos:exactMatch	MONDO:0018612	semapv:CompositeMatching	0.993579704619266	mesh:d003409|congenital hypothyroidism|mondo:0018612|doid:0050328
+DOID:0050328	skos:exactMatch	NCIT:C26734	semapv:CompositeMatching	0.9248894475888325	congenital hypothyroidism|mondo:0018612
+DOID:0050331	skos:exactMatch	MONDO:0007872	semapv:CompositeMatching	0.9825538504740087	ladd syndrome|lacrimoauriculodentodigital syndrome|levy-hollister syndrome|mondo:0007872|doid:0050331
+DOID:0050331	skos:exactMatch	MONDO:0100302	semapv:CompositeMatching	0.9411764705882352	omim:149730
+DOID:0050332	skos:exactMatch	MONDO:0010933	semapv:CompositeMatching	0.8	enlarged vestibular aqueduct
+DOID:0050332	skos:exactMatch	MONDO:0023069	semapv:CompositeMatching	0.765625	mondo:0023069|doid:0050332|enlarged vestibular aqueduct
+DOID:0050335	skos:exactMatch	MONDO:0012033	semapv:CompositeMatching	0.998223424320843	mesh:c564243|ordo:75374|bradyopsia|prolonged electroretinal response suppression|mondo:0012033|doid:0050335
+DOID:0050336	skos:exactMatch	MONDO:0000313	semapv:CompositeMatching	0.9934761514679639	mesh:d017674|hypophosphatemia|mondo:0000313|doid:0050336
+DOID:0050336	skos:exactMatch	NCIT:C143573	semapv:CompositeMatching	0.8	hypophosphatemia
+DOID:0050336	skos:exactMatch	NCIT:C37977	semapv:CompositeMatching	0.9248894475888325	hypophosphatemia|mondo:0000313
+DOID:0050338	skos:exactMatch	MONDO:0000314	semapv:CompositeMatching	0.9248894475888325	primary bacterial infectious disease|mondo:0000314
+DOID:0050339	skos:exactMatch	MONDO:0000315	semapv:CompositeMatching	0.9248894475888325	commensal bacterial infectious disease|mondo:0000315
+DOID:0050340	skos:exactMatch	MONDO:0000315	semapv:CompositeMatching	0.5	opportunistic bacterial infectious disease
+DOID:0050340	skos:exactMatch	MONDO:0000316	semapv:CompositeMatching	0.9248894475888325	opportunistic bacterial infectious disease|mondo:0000316
+DOID:0050352	skos:exactMatch	MONDO:0005498	semapv:CompositeMatching	0.5	foodborne botulism
+DOID:0050352	skos:exactMatch	MONDO:0016453	semapv:CompositeMatching	0.9248894475888325	foodborne botulism|mondo:0016453
+DOID:0050352	skos:exactMatch	NCIT:C128341	semapv:CompositeMatching	0.9248894475888325	foodborne botulism|mondo:0016453
+DOID:0050352	skos:narrowMatch	MONDO:0005498	semapv:CompositeMatching	0.8	foodborne botulism
+DOID:0050353	skos:exactMatch	MONDO:0015803	semapv:CompositeMatching	0.9248894475888325	wound botulism|mondo:0015803
+DOID:0050353	skos:exactMatch	NCIT:C128342	semapv:CompositeMatching	0.9248894475888325	wound botulism|mondo:0015803
+DOID:0050353	skos:narrowMatch	MONDO:0005498	semapv:CompositeMatching	0.8	wound botulism
+DOID:0050354	skos:exactMatch	MONDO:0005498	semapv:CompositeMatching	0.5	infant botulism
+DOID:0050354	skos:exactMatch	MONDO:0015804	semapv:CompositeMatching	0.9248894475888325	infant botulism|mondo:0015804
+DOID:0050354	skos:exactMatch	NCIT:C128343	semapv:CompositeMatching	0.9248894475888325	infant botulism|mondo:0015804
+DOID:0050382	skos:exactMatch	MONDO:0000320	semapv:CompositeMatching	0.9248894475888325	glandular tularemia|mondo:0000320
+DOID:0050383	skos:exactMatch	MONDO:0000321	semapv:CompositeMatching	0.9248894475888325	typhoidal tularemia|mondo:0000321
+DOID:0050387	skos:exactMatch	MONDO:0007763	semapv:CompositeMatching	0.9937868109218704	omim:144700|nonpapillary renal cell carcinoma|mondo:0007763|doid:0050387
+DOID:0050398	skos:exactMatch	MONDO:0018984	semapv:CompositeMatching	0.97675	carrion disease|oroya fever|carrion's disease|mondo:0018984
+DOID:0050398	skos:exactMatch	NCIT:C128441	semapv:CompositeMatching	0.9	carrion disease|mondo:0018984
+DOID:0050419	skos:exactMatch	MONDO:0012594	semapv:CompositeMatching	0.998232262869211	mesh:c572568|omim:610984|complement factor i deficiency|c3 inactivator deficiency|complement component 3 inactivator deficiency|mondo:0012594|doid:0050419
+DOID:0050424	skos:exactMatch	MONDO:0021055	semapv:CompositeMatching	0.9934340533088235	ordo:733|adenomatous polyposis of the colon|familial adenomatous polyposis|mondo:0021055|doid:0050424
+DOID:0050424	skos:exactMatch	MONDO:0021056	semapv:CompositeMatching	0.5	adenomatous polyposis of the colon
+DOID:0050424	skos:exactMatch	NCIT:C3339	semapv:CompositeMatching	0.9248894475888325	familial adenomatous polyposis|mondo:0021055
+DOID:0050425	skos:broadMatch	MONDO:0005391	semapv:CompositeMatching	0.8	wed
+DOID:0050425	skos:exactMatch	MONDO:0005391	semapv:CompositeMatching	0.9983732653951396	efo:0004270|icd10cm:g25.81|mesh:d012148|restless legs syndrome|willis-ekbom disease|wittmaack-ekbom syndrome|mondo:0005391|doid:0050425
+DOID:0050425	skos:exactMatch	NCIT:C84501	semapv:CompositeMatching	0.9	restless legs syndrome|mondo:0005391
+DOID:0050426	skos:exactMatch	MONDO:0018229	semapv:CompositeMatching	0.9983659591280317	efo:0004276|icd10cm:l51.1|mesh:d013262|stevens-johnson syndrome|mondo:0018229|doid:0050426
+DOID:0050426	skos:exactMatch	NCIT:C143859	semapv:CompositeMatching	0.8	stevens-johnson syndrome
+DOID:0050426	skos:exactMatch	NCIT:C79484	semapv:CompositeMatching	0.9248894475888325	stevens-johnson syndrome|mondo:0018229
+DOID:0050427	skos:exactMatch	MONDO:0016354	semapv:CompositeMatching	0.9411764705882352	icd10cm:q82.1
+DOID:0050427	skos:exactMatch	MONDO:0019600	semapv:CompositeMatching	0.9982689119243277	icd10cm:q82.1|mesh:d014983|ordo:910|xeroderma pigmentosum|mondo:0019600|doid:0050427
+DOID:0050427	skos:exactMatch	NCIT:C3452	semapv:CompositeMatching	0.9248894475888325	xeroderma pigmentosum|mondo:0019600
+DOID:0050428	skos:exactMatch	MONDO:0007758	semapv:CompositeMatching	0.5	tylosis
+DOID:0050428	skos:exactMatch	MONDO:0010849	semapv:CompositeMatching	0.9411764705882352	ordo:2337
+DOID:0050428	skos:exactMatch	MONDO:0010962	semapv:CompositeMatching	0.9917279727328338	omim:600962|nonepidermolytic palmoplantar keratoderma|mondo:0010962|thost-unna syndrome|tylosis|unna-thost syndrome|doid:0050428
+DOID:0050428	skos:exactMatch	NCIT:C3147	semapv:CompositeMatching	0.8	tylosis
+DOID:0050429	skos:exactMatch	MONDO:0008218	semapv:CompositeMatching	0.998232262869211	mesh:d016506|omim:169600|hailey-hailey disease|benign chronic pemphigus|pemphigus, benign familial|mondo:0008218|doid:0050429
+DOID:0050429	skos:exactMatch	NCIT:C82865	semapv:CompositeMatching	0.9	hailey-hailey disease|mondo:0008218
+DOID:0050430	skos:exactMatch	MONDO:0008234	semapv:CompositeMatching	0.9983844805090131	mesh:d018813|omim:171400|ordo:247698|multiple endocrine neoplasia type 2a|men2a|multiple endocrine neoplasia ii|sipple syndrome|mondo:0008234|doid:0050430
+DOID:0050430	skos:exactMatch	NCIT:C18464	semapv:CompositeMatching	0.8	men2a
+DOID:0050430	skos:exactMatch	NCIT:C3226	semapv:CompositeMatching	0.9248894475888325	multiple endocrine neoplasia type 2a|mondo:0008234
+DOID:0050430	skos:exactMatch	NCIT:C52204	semapv:CompositeMatching	0.8	men2a
+DOID:0050431	skos:exactMatch	MONDO:0016342	semapv:CompositeMatching	0.9411764705882352	ordo:217656
+DOID:0050431	skos:exactMatch	MONDO:0016587	semapv:CompositeMatching	0.9982328113537864	mesh:d019571|ordo:247|arrhythmogenic right ventricular cardiomyopathy|arrhythmogenic right ventricular dysplasia|arrhythmogenic right ventricular dysplasia/cardiomyopathy|arvc|arvc cardiomyopathy|arvd|mondo:0016587|doid:0050431
+DOID:0050431	skos:exactMatch	NCIT:C165987	semapv:CompositeMatching	0.8	arvd
+DOID:0050431	skos:exactMatch	NCIT:C52017	semapv:CompositeMatching	0.8	arvd
+DOID:0050431	skos:exactMatch	NCIT:C84571	semapv:CompositeMatching	0.97675	arrhythmogenic right ventricular dysplasia|arvd|arrhythmogenic right ventricular cardiomyopathy|mondo:0016587
+DOID:0050431	skos:exactMatch	NCIT:C91454	semapv:CompositeMatching	0.8	arrhythmogenic right ventricular cardiomyopathy
+DOID:0050432	skos:exactMatch	MONDO:0005259	semapv:CompositeMatching	0.9981489484173212	mesh:d020817|ordo:1162|asperger syndrome|mondo:0005259|doid:0050432
+DOID:0050432	skos:exactMatch	MONDO:0012079	semapv:CompositeMatching	0.9411764705882352	omim:608631
+DOID:0050432	skos:exactMatch	MONDO:0012082	semapv:CompositeMatching	0.9411764705882352	omim:608638
+DOID:0050432	skos:exactMatch	MONDO:0012119	semapv:CompositeMatching	0.9411764705882352	omim:608781
+DOID:0050432	skos:exactMatch	MONDO:0012377	semapv:CompositeMatching	0.9411764705882352	omim:609954
+DOID:0050432	skos:exactMatch	NCIT:C97159	semapv:CompositeMatching	0.9248894475888325	asperger syndrome|mondo:0005259
+DOID:0050433	skos:exactMatch	MONDO:0010808	semapv:CompositeMatching	0.9983692066305813	icd10cm:a81.83|mesh:d034062|omim:600072|fatal familial insomnia|mondo:0010808|doid:0050433
+DOID:0050433	skos:exactMatch	NCIT:C84711	semapv:CompositeMatching	0.9248894475888325	fatal familial insomnia|mondo:0010808
+DOID:0050434	skos:exactMatch	MONDO:0008222	semapv:CompositeMatching	0.9983844807434369	mesh:d050030|omim:170390|ordo:37553|andersen-tawil syndrome|andersen cardiodysrhythmic periodic paralysis|andersen syndrome|long qt syndrome 7|lqt7|potassium-sensitive cardiodysrhythmic type|mondo:0008222|doid:0050434
+DOID:0050434	skos:exactMatch	NCIT:C84559	semapv:CompositeMatching	0.978484375	andersen syndrome|long qt syndrome 7|lqt7|andersen-tawil syndrome|mondo:0008222
+DOID:0050436	skos:exactMatch	MONDO:0009664	semapv:CompositeMatching	0.9983844807416254	mesh:d050336|omim:253250|ordo:2576|mulibrey nanism|mul|muscle-liver-brain-eye nanism|perheentupa syndrome|pericardial constriction and growth failure|mondo:0009664|doid:0050436
+DOID:0050436	skos:exactMatch	NCIT:C177199	semapv:CompositeMatching	0.8	mul
+DOID:0050436	skos:exactMatch	NCIT:C84906	semapv:CompositeMatching	0.9774668342766498	mulibrey nanism|perheentupa syndrome|mondo:0009664
+DOID:0050437	skos:exactMatch	MONDO:0010281	semapv:CompositeMatching	0.998232262869211	mesh:d052120|omim:300257|danon disease|antopol disease|pseudoglycogenosis ii|mondo:0010281|doid:0050437
+DOID:0050437	skos:exactMatch	NCIT:C84735	semapv:CompositeMatching	0.9	danon disease|mondo:0010281
+DOID:0050438	skos:exactMatch	MONDO:0007635	semapv:CompositeMatching	0.998141660812665	mesh:d052159|omim:136680|frasier syndrome|mondo:0007635|doid:0050438
+DOID:0050438	skos:exactMatch	NCIT:C122805	semapv:CompositeMatching	0.9248894475888325	frasier syndrome|mondo:0007635
+DOID:0050439	skos:exactMatch	MONDO:0019501	semapv:CompositeMatching	0.9981489484173212	mesh:d052245|ordo:886|usher syndrome|mondo:0019501|doid:0050439
+DOID:0050439	skos:exactMatch	NCIT:C85217	semapv:CompositeMatching	0.9248894475888325	usher syndrome|mondo:0019501
+DOID:0050440	skos:exactMatch	MONDO:0007906	semapv:CompositeMatching	0.8	dunnigan syndrome
+DOID:0050440	skos:exactMatch	MONDO:0020088	semapv:CompositeMatching	0.9982238581610577	mesh:d052496|ordo:98306|familial partial lipodystrophy|koberling-dunnigan syndrome|mondo:0020088|doid:0050440
+DOID:0050440	skos:exactMatch	NCIT:C84708	semapv:CompositeMatching	0.9248894475888325	familial partial lipodystrophy|mondo:0020088
+DOID:0050441	skos:exactMatch	MONDO:0010088	semapv:CompositeMatching	0.998232262869211	mesh:d052517|omim:272200|mucosulfatidosis|multiple sulfatase deficiency disease|sulfatidosis, juvenile, austin type|mondo:0010088|doid:0050441
+DOID:0050441	skos:exactMatch	NCIT:C84908	semapv:CompositeMatching	0.9	multiple sulfatase deficiency disease|mondo:0010088
+DOID:0050444	skos:exactMatch	MONDO:0009958	semapv:CompositeMatching	0.9411764705882352	icd10cm:g60.1
+DOID:0050444	skos:exactMatch	MONDO:0009959	semapv:CompositeMatching	0.925146484375	infantile phytanic acid storage disease|mondo:0009959|doid:0050444|infantile refsum disease
+DOID:0050444	skos:exactMatch	MONDO:0011101	semapv:CompositeMatching	0.5	infantile phytanic acid storage disease
+DOID:0050444	skos:exactMatch	NCIT:C84789	semapv:CompositeMatching	0.8497788951776651	infantile refsum disease
+DOID:0050445	skos:broadMatch	MONDO:0010619	semapv:CompositeMatching	0.8	x-linked hypophosphatemia
+DOID:0050445	skos:exactMatch	MONDO:0010619	semapv:CompositeMatching	0.9982327947075299	mesh:d053098|omim:307800|x-linked dominant hypophosphatemic rickets|hypophosphatemia, vitamin d-resistant rickets|hypophosphatemic rickets x-linked dominant|vitamin d-resistant rickets, x-linked|mondo:0010619|doid:0050445
+DOID:0050445	skos:exactMatch	MONDO:0020720	semapv:CompositeMatching	0.9411764705882352	mesh:d053098
+DOID:0050445	skos:exactMatch	MONDO:0024300	semapv:CompositeMatching	0.5	hypophosphatemia, vitamin d-resistant rickets
+DOID:0050445	skos:exactMatch	NCIT:C85234	semapv:CompositeMatching	0.9774668342766498	x-linked dominant hypophosphatemic rickets|x-linked hypophosphatemia|mondo:0010619
+DOID:0050448	skos:exactMatch	MONDO:0008676	semapv:CompositeMatching	0.5	white sponge nevus of cannon
+DOID:0050448	skos:exactMatch	MONDO:0015748	semapv:CompositeMatching	0.9981550712888543	mesh:d053529|ordo:171723|hereditary mucosal leukokeratosis|white sponge nevus of cannon|white sponge nevus|mondo:0015748|doid:0050448
+DOID:0050448	skos:exactMatch	NCIT:C84760	semapv:CompositeMatching	0.9	hereditary mucosal leukokeratosis|mondo:0015748
+DOID:0050449	skos:exactMatch	MONDO:0008173	semapv:CompositeMatching	0.925	pachyonychia congenita type 1|jadassohn-lewandowsky syndrome|pachyonychia congenita, jadassohn-lewandowsky type
+DOID:0050449	skos:exactMatch	MONDO:0016471	semapv:CompositeMatching	0.9982327949181972	mesh:d053549|ordo:2309|pachyonychia congenita|jackson-lawler type pachyonychia congenita|jadassohn-lewandowsky syndrome|pachyonychia congenita, jadassohn-lewandowsky type|mondo:0016471|doid:0050449
+DOID:0050449	skos:exactMatch	NCIT:C84986	semapv:CompositeMatching	0.9248894475888325	pachyonychia congenita|mondo:0016471
+DOID:0050449	skos:narrowMatch	MONDO:0016471	semapv:CompositeMatching	0.8	pachyonychia congenita type 1
+DOID:0050450	skos:exactMatch	MONDO:0009904	semapv:CompositeMatching	0.998223424320843	mesh:d053579|omim:263800|gitelman syndrome|hypomagnesemia-hypokalemia, primary renotubular, with hypocalciuria|mondo:0009904|doid:0050450
+DOID:0050450	skos:exactMatch	NCIT:C84730	semapv:CompositeMatching	0.9248894475888325	gitelman syndrome|mondo:0009904
+DOID:0050451	skos:exactMatch	MONDO:0011001	semapv:CompositeMatching	0.5	sudden unexplained nocturnal death syndrome
+DOID:0050451	skos:exactMatch	MONDO:0015263	semapv:CompositeMatching	0.9982328113557678	mesh:d053840|ordo:130|brugada syndrome|bangungut|brugada type idiopathic ventricular fibrillation|dream disease|pokkuri death syndrome|sudden unexplained nocturnal death syndrome|sunds|mondo:0015263|doid:0050451
+DOID:0050451	skos:exactMatch	MONDO:0021172	semapv:CompositeMatching	0.9411764705882352	icd10cm:i49.8
+DOID:0050451	skos:exactMatch	MONDO:0035678	semapv:CompositeMatching	0.9411764705882352	icd10cm:i49.8
+DOID:0050451	skos:exactMatch	MONDO:0035679	semapv:CompositeMatching	0.9411764705882352	icd10cm:i49.8
+DOID:0050451	skos:exactMatch	NCIT:C142891	semapv:CompositeMatching	0.9248894475888325	brugada syndrome|mondo:0015263
+DOID:0050451	skos:exactMatch	NCIT:C71059	semapv:CompositeMatching	0.8	brugada syndrome
+DOID:0050452	skos:exactMatch	MONDO:0012481	semapv:CompositeMatching	0.998141660812665	omim:610377|ordo:29|mevalonic aciduria|mondo:0012481|doid:0050452
+DOID:0050452	skos:exactMatch	MONDO:0017708	semapv:CompositeMatching	0.988235294117647	mesh:d054078|mevalonate kinase deficiency
+DOID:0050452	skos:exactMatch	NCIT:C84890	semapv:CompositeMatching	0.965	mevalonate kinase deficiency|mevalonic aciduria|mondo:0012481
+DOID:0050453	skos:exactMatch	MONDO:0015146	semapv:CompositeMatching	0.9411764705882352	ordo:102009
+DOID:0050453	skos:exactMatch	MONDO:0018838	semapv:CompositeMatching	0.9914522058823529	mesh:d054082|lissencephaly|mondo:0018838|doid:0050453
+DOID:0050453	skos:exactMatch	NCIT:C103921	semapv:CompositeMatching	0.9248894475888325	lissencephaly|mondo:0018838
+DOID:0050454	skos:exactMatch	MONDO:0010233	semapv:CompositeMatching	0.9411764705882352	omim:300049
+DOID:0050454	skos:exactMatch	MONDO:0011966	semapv:CompositeMatching	0.9411764705882352	omim:608097
+DOID:0050454	skos:exactMatch	MONDO:0011967	semapv:CompositeMatching	0.9411764705882352	omim:608098
+DOID:0050454	skos:exactMatch	MONDO:0013031	semapv:CompositeMatching	0.9411764705882352	omim:612881
+DOID:0050454	skos:exactMatch	MONDO:0014240	semapv:CompositeMatching	0.9411764705882352	omim:615544
+DOID:0050454	skos:exactMatch	MONDO:0020341	semapv:CompositeMatching	0.998223424320843	mesh:d054091|ordo:98892|periventricular nodular heterotopia|periventricular heterotopia|mondo:0020341|doid:0050454
+DOID:0050456	skos:exactMatch	MONDO:0000327	semapv:CompositeMatching	0.9952917148001912	mesh:d054312|buruli ulcer disease|bairnsdale ulcer|daintree ulcer|mossman ulcer|searl ulcer|searle's ulcer|mondo:0000327|doid:0050456
+DOID:0050456	skos:exactMatch	NCIT:C84604	semapv:CompositeMatching	0.5	mondo:0000327
+DOID:0050457	skos:exactMatch	MONDO:0010595	semapv:CompositeMatching	0.9952667057940662	mesh:d054331|sertoli cell-only syndrome|del castillo syndrome|germinal cell aplasia|mondo:0010595|doid:0050457
+DOID:0050457	skos:exactMatch	MONDO:0056795	semapv:CompositeMatching	0.8125	del castillo syndrome|germinal cell aplasia|sertoli cell-only syndrome
+DOID:0050457	skos:exactMatch	NCIT:C168988	semapv:CompositeMatching	0.9774668342766498	sertoli cell-only syndrome|del castillo syndrome|mondo:0010595
+DOID:0050458	skos:exactMatch	MONDO:0011908	semapv:CompositeMatching	0.9983758993530276	icdo:9946/3|mesh:d054429|omim:607785|juvenile myelomonocytic leukemia|mondo:0011908|doid:0050458
+DOID:0050458	skos:exactMatch	NCIT:C9233	semapv:CompositeMatching	0.9248894475888325	juvenile myelomonocytic leukemia|mondo:0011908
+DOID:0050459	skos:exactMatch	MONDO:0000328	semapv:CompositeMatching	0.9934761514679639	mesh:d054559|hyperphosphatemia|mondo:0000328|doid:0050459
+DOID:0050459	skos:exactMatch	NCIT:C113750	semapv:CompositeMatching	0.8497788951776651	hyperphosphatemia
+DOID:0050459	skos:exactMatch	NCIT:C143222	semapv:CompositeMatching	0.8	hyperphosphatemia
+DOID:0050460	skos:exactMatch	MONDO:0008684	semapv:CompositeMatching	0.9984063872736356	icd10cm:q93.3|mesh:d054877|omim:194190|ordo:280|wolf-hirschhorn syndrome|4p deletion syndrome|chromosome 4p16.3 deletion syndrome|pitt syndrome|pitt-rogers-danks syndrome|mondo:0008684|doid:0050460
+DOID:0050460	skos:exactMatch	MONDO:0022762	semapv:CompositeMatching	0.9411764705882352	icd10cm:q93.3
+DOID:0050460	skos:exactMatch	NCIT:C35528	semapv:CompositeMatching	0.9774668342766498	wolf-hirschhorn syndrome|4p deletion syndrome|mondo:0008684
+DOID:0050461	skos:exactMatch	MONDO:0008830	semapv:CompositeMatching	0.998115591848806	mesh:d054880|omim:208400|aspartylglucosaminuria|aspartylglucosaminidase deficiency|aspartylglycosaminuria|glycosylasparaginase deficiency|mondo:0008830|doid:0050461
+DOID:0050461	skos:exactMatch	NCIT:C61273	semapv:CompositeMatching	0.965	aspartylglycosaminuria|aspartylglucosaminuria|mondo:0008830
+DOID:0050462	skos:exactMatch	MONDO:0008726	semapv:CompositeMatching	0.9411764705882352	omim:201750
+DOID:0050462	skos:exactMatch	MONDO:0008803	semapv:CompositeMatching	0.925	trapezoidocephaly-synostosis syndrome|mondo:0008803|doid:0050462
+DOID:0050462	skos:exactMatch	MONDO:0020667	semapv:CompositeMatching	0.5	trapezoidocephaly-synostosis syndrome
+DOID:0050463	skos:exactMatch	MONDO:0007251	semapv:CompositeMatching	0.9983758993530276	mesh:d055036|omim:114290|ordo:140|campomelic dysplasia|mondo:0007251|doid:0050463
+DOID:0050463	skos:exactMatch	NCIT:C120205	semapv:CompositeMatching	0.8	acampomelic campomelic dysplasia
+DOID:0050463	skos:exactMatch	NCIT:C84609	semapv:CompositeMatching	0.9248894475888325	campomelic dysplasia|mondo:0007251
+DOID:0050463	skos:narrowMatch	MONDO:0007251	semapv:CompositeMatching	0.8	acampomelic campomelic dysplasia
+DOID:0050464	skos:exactMatch	MONDO:0009218	semapv:CompositeMatching	0.9982327947075299	mesh:d055577|omim:228000|farber lipogranulomatosis|acid ceramidase deficiency|farber disease|n-laurylsphingosine deacylase deficiency|mondo:0009218|doid:0050464
+DOID:0050464	skos:exactMatch	NCIT:C84710	semapv:CompositeMatching	0.9248894475888325	farber lipogranulomatosis|mondo:0009218
+DOID:0050465	skos:exactMatch	MONDO:0008018	semapv:CompositeMatching	0.998141660812665	mesh:d055653|omim:158320|muir-torre syndrome|mondo:0008018|doid:0050465
+DOID:0050465	skos:exactMatch	NCIT:C84905	semapv:CompositeMatching	0.9248894475888325	muir-torre syndrome|mondo:0008018
+DOID:0050466	skos:exactMatch	MONDO:0018954	semapv:CompositeMatching	0.998141660812665	mesh:d055947|ordo:60030|loeys-dietz syndrome|mondo:0018954|doid:0050466
+DOID:0050466	skos:exactMatch	NCIT:C75006	semapv:CompositeMatching	0.9248894475888325	loeys-dietz syndrome|mondo:0018954
+DOID:0050467	skos:exactMatch	MONDO:0017851	semapv:CompositeMatching	0.9981132481513288	mesh:d056266|ordo:317|erythrokeratodermia variabilis|erythrokeratodermia figurata variabilis|mondo:0017851|doid:0050467
+DOID:0050467	skos:exactMatch	MONDO:0018853	semapv:CompositeMatching	0.8	greither disease
+DOID:0050467	skos:exactMatch	MONDO:0033010	semapv:CompositeMatching	0.75	greither disease|erythrokeratodermia variabilis
+DOID:0050467	skos:exactMatch	NCIT:C84696	semapv:CompositeMatching	0.9248894475888325	erythrokeratodermia variabilis|mondo:0017851
+DOID:0050468	skos:exactMatch	MONDO:0007921	semapv:CompositeMatching	0.9983692066305813	icd10cm:l60.5|mesh:d056684|omim:153300|yellow nail syndrome|mondo:0007921|doid:0050468
+DOID:0050468	skos:exactMatch	NCIT:C85238	semapv:CompositeMatching	0.9248894475888325	yellow nail syndrome|mondo:0007921
+DOID:0050469	skos:exactMatch	MONDO:0009026	semapv:CompositeMatching	0.998232262869211	mesh:d056685|omim:218040|costello syndrome|faciocutaneoskeletal syndrome|fcs syndrome|mondo:0009026|doid:0050469
+DOID:0050469	skos:exactMatch	NCIT:C84652	semapv:CompositeMatching	0.9248894475888325	costello syndrome|mondo:0009026
+DOID:0050470	skos:exactMatch	MONDO:0009517	semapv:CompositeMatching	0.9983839793308699	mesh:d056731|omim:246200|ordo:508|donohue syndrome|leprechaunism|mondo:0009517|doid:0050470
+DOID:0050470	skos:exactMatch	MONDO:0009874	semapv:CompositeMatching	0.9411764705882352	mesh:d056731
+DOID:0050470	skos:exactMatch	NCIT:C84676	semapv:CompositeMatching	0.9774668342766498	donohue syndrome|leprechaunism|mondo:0009517
+DOID:0050471	skos:exactMatch	MONDO:0008057	semapv:CompositeMatching	0.991468900792739	omim:160980|carney complex, type 1|carney syndrome|lamb syndrome|name syndrome
+DOID:0050471	skos:exactMatch	MONDO:0011525	semapv:CompositeMatching	0.988235294117647	omim:605244|carney complex, type 2
+DOID:0050471	skos:exactMatch	MONDO:0012137	semapv:CompositeMatching	0.988235294117647	omim:608837|carney complex variant
+DOID:0050471	skos:exactMatch	MONDO:0015285	semapv:CompositeMatching	0.9982327947075299	mesh:d056733|ordo:1359|carney complex|carney syndrome|lamb syndrome|name syndrome|mondo:0015285|doid:0050471
+DOID:0050471	skos:exactMatch	NCIT:C4705	semapv:CompositeMatching	0.9774668342766498	carney complex|carney syndrome|mondo:0015285
+DOID:0050471	skos:narrowMatch	MONDO:0015285	semapv:CompositeMatching	0.96	carney complex, type 1|carney complex, type 2
+DOID:0050472	skos:exactMatch	MONDO:0008009	semapv:CompositeMatching	0.998141660812665	mesh:d056734|omim:158000|monilethrix|mondo:0008009|doid:0050472
+DOID:0050472	skos:exactMatch	NCIT:C84894	semapv:CompositeMatching	0.9248894475888325	monilethrix|mondo:0008009
+DOID:0050473	skos:exactMatch	MONDO:0008763	semapv:CompositeMatching	0.9980740682794785	mesh:d056769|omim:203800|alstrom syndrome|mondo:0008763|doid:0050473
+DOID:0050473	skos:exactMatch	NCIT:C84549	semapv:CompositeMatching	0.9248894475888325	alstrom syndrome|mondo:0008763
+DOID:0050474	skos:exactMatch	MONDO:0009735	semapv:CompositeMatching	0.998141660812665	omim:256500|ordo:634|netherton syndrome|mondo:0009735|doid:0050474
+DOID:0050474	skos:exactMatch	NCIT:C84922	semapv:CompositeMatching	0.9248894475888325	netherton syndrome|mondo:0009735
+DOID:0050475	skos:broadMatch	MONDO:0012013	semapv:CompositeMatching	0.8	mesodermal dysmorphodystrophy, congenital
+DOID:0050475	skos:exactMatch	MONDO:0010194	semapv:CompositeMatching	0.9705882352941175	omim:277600|mesodermal dysmorphodystrophy, congenital
+DOID:0050475	skos:exactMatch	MONDO:0012013	semapv:CompositeMatching	0.988235294117647	omim:608328|gemss syndrome
+DOID:0050475	skos:exactMatch	MONDO:0013176	semapv:CompositeMatching	0.9411764705882352	omim:613195
+DOID:0050475	skos:exactMatch	MONDO:0013899	semapv:CompositeMatching	0.9411764705882352	omim:614819
+DOID:0050475	skos:exactMatch	MONDO:0018096	semapv:CompositeMatching	0.9982328111009815	mesh:d056846|ordo:3449|weill-marchesani syndrome|congenital mesodermal dystrophy|marchesani-weill syndrome|mesodermal dysmorphodystrophy, congenital|spherophakia brachymorphia syndrome|mondo:0018096|doid:0050475
+DOID:0050475	skos:exactMatch	NCIT:C85226	semapv:CompositeMatching	0.9248894475888325	weill-marchesani syndrome|mondo:0018096
+DOID:0050476	skos:exactMatch	MONDO:0010543	semapv:CompositeMatching	0.9983679082780119	icd10cm:e78.71|mesh:d056889|omim:302060|barth syndrome|3-methylglutaconicaciduria type 2|3-methylglutaconicaciduria type ii|mga type 2|mga type ii|mondo:0010543|doid:0050476
+DOID:0050476	skos:exactMatch	NCIT:C84585	semapv:CompositeMatching	0.9248894475888325	barth syndrome|mondo:0010543
+DOID:0050477	skos:exactMatch	MONDO:0008323	semapv:CompositeMatching	0.9952667057940662	mesh:d056929|liddle syndrome|liddle's syndrome|pseudoaldosteronism|mondo:0008323|doid:0050477
+DOID:0050477	skos:exactMatch	MONDO:0020607	semapv:CompositeMatching	0.9779411764705882	omim:177200|pseudoaldosteronism|liddle syndrome
+DOID:0050477	skos:exactMatch	NCIT:C84827	semapv:CompositeMatching	0.9248894475888325	liddle syndrome|mondo:0008323
+DOID:0050480	skos:exactMatch	MONDO:0019362	semapv:CompositeMatching	0.97	sylvatic typhus|epidemic typhus|mondo:0019362
+DOID:0050480	skos:exactMatch	NCIT:C84689	semapv:CompositeMatching	0.9	epidemic typhus|mondo:0019362
+DOID:0050481	skos:exactMatch	MONDO:0000330	semapv:CompositeMatching	0.9839918326286451	endemic typhus|cat flea rickettsiosis|fleaborne typhus|murine typhus|rat-flea typhus|rickettsia felis spotted fever|toulon typhus|urban typhus|urban typhus of malaya|mondo:0000330|shop typhus
+DOID:0050481	skos:exactMatch	MONDO:0001246	semapv:CompositeMatching	0.8125	murine typhus|urban typhus|shop typhus
+DOID:0050481	skos:exactMatch	NCIT:C84688	semapv:CompositeMatching	0.9	endemic typhus|mondo:0000330
+DOID:0050484	skos:exactMatch	MONDO:0000331	semapv:CompositeMatching	0.97	rickettsia helvetica spotted fever|aneruptive fever|mondo:0000331
+DOID:0050485	skos:exactMatch	MONDO:0000332	semapv:CompositeMatching	0.9935797291107492	mesh:c537582|sennetsu fever|mondo:0000332|sennetsu ehrlichiosis|doid:0050485
+DOID:0050486	skos:exactMatch	MONDO:0006547	semapv:CompositeMatching	0.9934761514679639	mesh:d005076|exanthem|mondo:0006547|doid:0050486
+DOID:0050486	skos:exactMatch	NCIT:C111884	semapv:CompositeMatching	0.8497788951776651	exanthem
+DOID:0050486	skos:exactMatch	NCIT:C39594	semapv:CompositeMatching	0.5	mondo:0006547
+DOID:0050487	skos:exactMatch	MONDO:0006528	semapv:CompositeMatching	0.9248894475888325	bacterial exanthem|mondo:0006528
+DOID:0050488	skos:broadMatch	MONDO:0000333	semapv:CompositeMatching	0.8	early congenital syphilis
+DOID:0050488	skos:exactMatch	MONDO:0000333	semapv:CompositeMatching	0.9248894475888325	early congenital syphilis|mondo:0000333
+DOID:0050489	skos:exactMatch	MONDO:0000334	semapv:CompositeMatching	0.9436670856916244	multinodular goiter|mondo:0000334|doid:0050489
+DOID:0050489	skos:exactMatch	MONDO:0007681	semapv:CompositeMatching	0.9965397923875432	omim:138800|ordo:276399
+DOID:0050489	skos:exactMatch	MONDO:0010290	semapv:CompositeMatching	0.9411764705882352	omim:300273
+DOID:0050489	skos:exactMatch	MONDO:0011635	semapv:CompositeMatching	0.9411764705882352	omim:606082
+DOID:0050489	skos:exactMatch	NCIT:C131438	semapv:CompositeMatching	0.9248894475888325	multinodular goiter|mondo:0000334
+DOID:0050490	skos:exactMatch	MONDO:0000335	semapv:CompositeMatching	0.9248894475888325	parenchymatous neurosyphilis|mondo:0000335
+DOID:0050491	skos:exactMatch	MONDO:0000336	semapv:CompositeMatching	0.9248894475888325	meningovascular neurosyphilis|mondo:0000336
+DOID:0050495	skos:exactMatch	MONDO:0000337	semapv:CompositeMatching	0.9952678616656672	mesh:d005077|exanthema subitum|roseola infantum|sixth disease|mondo:0000337|doid:0050495
+DOID:0050495	skos:exactMatch	NCIT:C128420	semapv:CompositeMatching	0.9	roseola infantum|mondo:0000337
+DOID:0050508	skos:broadMatch	MONDO:0000338	semapv:CompositeMatching	0.8	variola major
+DOID:0050508	skos:exactMatch	MONDO:0000338	semapv:CompositeMatching	0.75	mondo:0000338|doid:0050508
+DOID:0050513	skos:exactMatch	MONDO:0000339	semapv:CompositeMatching	0.9248894475888325	spinal polio|mondo:0000339
+DOID:0050514	skos:exactMatch	MONDO:0000340	semapv:CompositeMatching	0.9248894475888325	bulbospinal polio|mondo:0000340
+DOID:0050515	skos:exactMatch	MONDO:0000341	semapv:CompositeMatching	0.9248894475888325	paralytic poliomyelitis|mondo:0000341
+DOID:0050516	skos:exactMatch	MONDO:0000342	semapv:CompositeMatching	0.9248894475888325	o'nyong'nyong fever|mondo:0000342
+DOID:0050517	skos:exactMatch	MONDO:0000343	semapv:CompositeMatching	0.9248894475888325	barmah forest virus disease|mondo:0000343
+DOID:0050518	skos:exactMatch	MONDO:0000344	semapv:CompositeMatching	0.9774668342766498	ross river fever|ross river virus disease|mondo:0000344
+DOID:0050521	skos:exactMatch	MONDO:0000345	semapv:CompositeMatching	0.9248894475888325	oropouche fever|mondo:0000345
+DOID:0050522	skos:exactMatch	MONDO:0000346	semapv:CompositeMatching	0.9	balkan hemorrhagic fever|mondo:0000346
+DOID:0050523	skos:exactMatch	MONDO:0004963	semapv:CompositeMatching	0.75	mondo:0004963|doid:0050523
+DOID:0050523	skos:exactMatch	MONDO:0019471	semapv:CompositeMatching	0.9950343027914635	icdo:9827/3|adult t-cell leukemia/lymphoma|adult t-cell leukemia|mondo:0019471|doid:0050523
+DOID:0050523	skos:exactMatch	NCIT:C3183	semapv:CompositeMatching	0.5	mondo:0004963
+DOID:0050523	skos:exactMatch	NCIT:C3184	semapv:CompositeMatching	0.9248894475888325	adult t-cell leukemia/lymphoma|mondo:0019471
+DOID:0050524	skos:exactMatch	MONDO:0018911	semapv:CompositeMatching	0.9982322561257775	omim:606391|ordo:552|maturity-onset diabetes of the young|mason-type diabetes|mody|mondo:0018911|doid:0050524
+DOID:0050524	skos:exactMatch	NCIT:C114769	semapv:CompositeMatching	0.9774668342766498	maturity-onset diabetes of the young|mody|mondo:0018911
+DOID:0050524	skos:exactMatch	NCIT:C117630	semapv:CompositeMatching	0.8	mody
+DOID:0050524	skos:exactMatch	NCIT:C129739	semapv:CompositeMatching	0.8	mody
+DOID:0050524	skos:exactMatch	NCIT:C91449	semapv:CompositeMatching	0.8	mody
+DOID:0050526	skos:exactMatch	MONDO:0007646	semapv:CompositeMatching	0.9952667057940662	omim:137200|gamstorp-wohlfart syndrome|autosomal recessive neuromyotonia and axonal neuropathy|myokymia, myotonia and muscle wasting|mondo:0007646|doid:0050526
+DOID:0050528	skos:exactMatch	MONDO:0021013	semapv:CompositeMatching	0.9917279727328338	omim:234050|ttd4|mondo:0021013|amish brittle hair brain syndrome|bids syndrome|hair-brain syndrome|doid:0050528
+DOID:0050528	skos:exactMatch	NCIT:C146899	semapv:CompositeMatching	0.5	mondo:0021013
+DOID:0050529	skos:exactMatch	MONDO:0010056	semapv:CompositeMatching	0.9983732332809555	mesh:c563948|omim:271150|ordo:83420|sma4|spinal muscular atrophy, adult form|spinal muscular atrophy, type iv|adult spinal muscular atrophy|mondo:0010056|spinal muscular atrophy 4|doid:0050529
+DOID:0050529	skos:exactMatch	NCIT:C127864	semapv:CompositeMatching	0.8	sma4
+DOID:0050530	skos:exactMatch	MONDO:0009673	semapv:CompositeMatching	0.9937296295151039	omim:253550|muscular atrophy, spinal, infantile chronic form|muscular atrophy, spinal, intermediate type|sma2|intermediate spinal muscular atrophy|mondo:0009673|sma ii|spinal muscular atrophy type ii|doid:0050530
+DOID:0050530	skos:exactMatch	NCIT:C127864	semapv:CompositeMatching	0.8	sma2
+DOID:0050530	skos:exactMatch	NCIT:C156310	semapv:CompositeMatching	0.8	sma2
+DOID:0050534	skos:exactMatch	MONDO:0004587	semapv:CompositeMatching	0.9411764705882352	mesh:c537743
+DOID:0050534	skos:exactMatch	MONDO:0016293	semapv:CompositeMatching	0.9950682811692346	ordo:215|congenital stationary night blindness|congenital essential nyctalopia|mondo:0016293|doid:0050534
+DOID:0050534	skos:exactMatch	MONDO:0019152	semapv:CompositeMatching	0.9411764705882352	mesh:c537743
+DOID:0050535	skos:exactMatch	MONDO:0019516	semapv:CompositeMatching	0.9952678616656672	ordo:891|exudative vitreoretinopathy|familial exudative vitreoretinopathy|fevr|mondo:0019516|doid:0050535
+DOID:0050535	skos:exactMatch	NCIT:C51448	semapv:CompositeMatching	0.8	fevr
+DOID:0050538	skos:exactMatch	MONDO:0019011	semapv:CompositeMatching	0.9788751571343591	charcot-marie-tooth disease type 1|hereditary motor and sensory neuropathy type 1|mondo:0019011|doid:0050538
+DOID:0050539	skos:exactMatch	MONDO:0007310	semapv:CompositeMatching	0.9411764705882352	omim:118230
+DOID:0050539	skos:exactMatch	MONDO:0011468	semapv:CompositeMatching	0.9411764705882352	omim:604484
+DOID:0050539	skos:exactMatch	MONDO:0018993	semapv:CompositeMatching	0.9952902900902936	ordo:64746|charcot-marie-tooth disease type 2|hereditary motor and sensory neuropathy guadalajara neuronal type|hereditary motor and sensory neuropathy okinawa type|hereditary motor and sensory neuropathy type 2|mondo:0018993|doid:0050539
+DOID:0050540	skos:exactMatch	MONDO:0007790	semapv:CompositeMatching	0.9952667057940662	omim:145900|charcot-marie-tooth disease type 3|dejerine-sottas neuropathy|dejerine-sottas syndrome|mondo:0007790|doid:0050540
+DOID:0050540	skos:exactMatch	NCIT:C133087	semapv:CompositeMatching	0.9	dejerine-sottas neuropathy|mondo:0007790
+DOID:0050541	skos:broadMatch	MONDO:0015626	semapv:CompositeMatching	0.8	hereditary motor and sensory neuropathy
+DOID:0050541	skos:exactMatch	MONDO:0015358	semapv:CompositeMatching	0.8	hereditary motor and sensory neuropathy
+DOID:0050541	skos:exactMatch	MONDO:0018995	semapv:CompositeMatching	0.9937868109218704	ordo:64749|charcot-marie-tooth disease type 4|mondo:0018995|doid:0050541
+DOID:0050541	skos:exactMatch	NCIT:C75467	semapv:CompositeMatching	0.8	hereditary motor and sensory neuropathy
+DOID:0050541	skos:narrowMatch	MONDO:0002316	semapv:CompositeMatching	0.8	hereditary motor and sensory neuropathy
+DOID:0050542	skos:exactMatch	MONDO:0018994	semapv:CompositeMatching	0.9937868109218704	ordo:64747|charcot-marie-tooth disease type x|mondo:0018994|doid:0050542
+DOID:0050543	skos:exactMatch	MONDO:0018778	semapv:CompositeMatching	0.9	charcot-marie-tooth disease intermediate type|mondo:0018778
+DOID:0050543	skos:narrowMatch	MONDO:0018778	semapv:CompositeMatching	0.96	charcot-marie-tooth disease dominant intermediate|charcot-marie-tooth disease recessive intermediate
+DOID:0050544	skos:exactMatch	MONDO:0000351	semapv:CompositeMatching	0.925	hypermethioninemia|mondo:0000351|doid:0050544
+DOID:0050545	skos:exactMatch	MONDO:0010029	semapv:CompositeMatching	0.5	situs ambiguus
+DOID:0050545	skos:exactMatch	MONDO:0010607	semapv:CompositeMatching	0.9411764705882352	omim:306955
+DOID:0050545	skos:exactMatch	MONDO:0011546	semapv:CompositeMatching	0.9411764705882352	omim:605376
+DOID:0050545	skos:exactMatch	MONDO:0011659	semapv:CompositeMatching	0.9411764705882352	omim:606325
+DOID:0050545	skos:exactMatch	MONDO:0013403	semapv:CompositeMatching	0.9411764705882352	omim:613751
+DOID:0050545	skos:exactMatch	MONDO:0013887	semapv:CompositeMatching	0.9411764705882352	omim:614779
+DOID:0050545	skos:exactMatch	MONDO:0018677	semapv:CompositeMatching	0.9952667057940662	ordo:450|visceral heterotaxy|heterotaxia|situs ambiguus|mondo:0018677|doid:0050545
+DOID:0050545	skos:exactMatch	NCIT:C117273	semapv:CompositeMatching	0.5	mondo:0018677
+DOID:0050545	skos:exactMatch	NCIT:C87083	semapv:CompositeMatching	0.8	heterotaxia
+DOID:0050545	skos:exactMatch	NCIT:C87121	semapv:CompositeMatching	0.8	situs ambiguus
+DOID:0050546	skos:exactMatch	MONDO:0013400	semapv:CompositeMatching	0.9934340533088235	omim:613743|adrenal insufficiency, congenital, with 46,xy sex reversal, partial or complete|p450scc deficiency|mondo:0013400|doid:0050546
+DOID:0050546	skos:exactMatch	NCIT:C131422	semapv:CompositeMatching	0.9	p450scc deficiency|mondo:0013400
+DOID:0050547	skos:exactMatch	MONDO:0007958	semapv:CompositeMatching	0.998223424320843	mesh:c536911|omim:155240|familial medullary thyroid carcinoma|thyroid carcinoma, familial medullary|mondo:0007958|doid:0050547
+DOID:0050547	skos:exactMatch	MONDO:0008234	semapv:CompositeMatching	0.5	thyroid carcinoma, familial medullary
+DOID:0050548	skos:exactMatch	MONDO:0015364	semapv:CompositeMatching	0.9931751206341911	mesh:d009477|hereditary sensory and autonomic neuropathy|hereditary sensory neuropathy|mondo:0015364|doid:0050548
+DOID:0050548	skos:exactMatch	NCIT:C125386	semapv:CompositeMatching	0.5	mondo:0015364
+DOID:0050549	skos:exactMatch	MONDO:0013127	semapv:CompositeMatching	0.97	type i short rib polydactyly syndrome|saldino-noonan syndrome|mondo:0013127
+DOID:0050549	skos:exactMatch	NCIT:C163755	semapv:CompositeMatching	0.5	mondo:0013127
+DOID:0050553	skos:exactMatch	MONDO:0009726	semapv:CompositeMatching	0.9931751206341911	ordo:324999|joint contractures, muscular atrophy, microcytic anemia, and panniculitis-induced lipodystrophy|jmp syndrome|mondo:0009726|doid:0050553
+DOID:0050553	skos:exactMatch	MONDO:0054698	semapv:CompositeMatching	0.9779411764705882	omim:256040|joint contractures, muscular atrophy, microcytic anemia, and panniculitis-induced lipodystrophy|jmp syndrome
+DOID:0050554	skos:exactMatch	MONDO:0010524	semapv:CompositeMatching	0.9952667057940662	omim:301310|x-linked sideroblastic anemia with ataxia|anemia sideroblastic and spinocerebellar ataxia|x-linked sideroblastic anemia and ataxia|mondo:0010524|doid:0050554
+DOID:0050557	skos:exactMatch	MONDO:0009682	semapv:CompositeMatching	0.9411764705882352	omim:254100
+DOID:0050557	skos:exactMatch	MONDO:0019950	semapv:CompositeMatching	0.9937868109218704	ordo:97242|congenital muscular dystrophy|mondo:0019950|doid:0050557
+DOID:0050558	skos:exactMatch	MONDO:0000355	semapv:CompositeMatching	0.9788751672074693	ullrich congenital muscular dystrophy|ullrich scleroatonic muscular dystrophy|mondo:0000355|ullrich disease|doid:0050558
+DOID:0050558	skos:exactMatch	MONDO:0009681	semapv:CompositeMatching	0.9793198529411764	omim:254090|ullrich disease|ullrich scleroatonic muscular dystrophy|ullrich congenital muscular dystrophy
+DOID:0050558	skos:exactMatch	NCIT:C123438	semapv:CompositeMatching	0.9248894475888325	ullrich congenital muscular dystrophy|mondo:0000355
+DOID:0050559	skos:exactMatch	MONDO:0009678	semapv:CompositeMatching	0.9980688392084776	omim:253800|ordo:272|fukuyama congenital muscular dystrophy|mondo:0009678|doid:0050559
+DOID:0050559	skos:exactMatch	NCIT:C126741	semapv:CompositeMatching	0.5	mondo:0009678
+DOID:0050560	skos:exactMatch	MONDO:0000171	semapv:CompositeMatching	0.993699768963982	mesh:d058494|cerebroocular dysplasia-muscular dystrophy syndrome|hard syndrome|walker-warburg syndrome|mondo:0000171|doid:0050560
+DOID:0050560	skos:exactMatch	MONDO:0009364	semapv:CompositeMatching	0.75	cerebroocular dysplasia-muscular dystrophy syndrome|hard syndrome
+DOID:0050560	skos:exactMatch	NCIT:C99109	semapv:CompositeMatching	0.9248894475888325	walker-warburg syndrome|mondo:0000171
+DOID:0050561	skos:exactMatch	MONDO:0016532	semapv:CompositeMatching	0.9983839916602232	mesh:d065768|omim:606369|ordo:2382|lennox-gastaut syndrome|lennox syndrome|mondo:0016532|doid:0050561
+DOID:0050561	skos:exactMatch	NCIT:C84816	semapv:CompositeMatching	0.9248894475888325	lennox-gastaut syndrome|mondo:0016532
+DOID:0050562	skos:exactMatch	MONDO:0018097	semapv:CompositeMatching	0.9937868138845497	ordo:3451|west syndrome|mondo:0018097|infantile spasms syndrome|doid:0050562
+DOID:0050562	skos:exactMatch	NCIT:C84788	semapv:CompositeMatching	0.9248894475888325	west syndrome|mondo:0018097
+DOID:0050563	skos:broadMatch	MONDO:0019497	semapv:CompositeMatching	0.96	nonsyndromic hearing loss|nonsyndromic deafness
+DOID:0050563	skos:exactMatch	MONDO:0019497	semapv:CompositeMatching	0.9917279411764706	mesh:c580334|nonsyndromic hereditary hearing loss|mondo:0019497|doid:0050563
+DOID:0050564	skos:broadMatch	MONDO:0019587	semapv:CompositeMatching	0.8	autosomal dominant deafness
+DOID:0050564	skos:exactMatch	MONDO:0019587	semapv:CompositeMatching	0.9779411764705882	ordo:90635|mondo:0019587|doid:0050564
+DOID:0050564	skos:narrowMatch	MONDO:0019587	semapv:CompositeMatching	0.8	autosomal dominant nonsyndromic deafness
+DOID:0050565	skos:exactMatch	MONDO:0019588	semapv:CompositeMatching	0.9975670415224913	omim:607197|ordo:90636|mondo:0019588|doid:0050565
+DOID:0050565	skos:narrowMatch	MONDO:0019588	semapv:CompositeMatching	0.8	autosomal recessive nonsyndromic deafness
+DOID:0050566	skos:exactMatch	MONDO:0019586	semapv:CompositeMatching	0.9779411764705882	ordo:90625|mondo:0019586|doid:0050566
+DOID:0050566	skos:exactMatch	MONDO:0020768	semapv:CompositeMatching	0.8	x-linked deafness
+DOID:0050566	skos:narrowMatch	MONDO:0019586	semapv:CompositeMatching	0.96	x-linked deafness|x-linked nonsyndromic deafness
+DOID:0050567	skos:exactMatch	MONDO:0000358	semapv:CompositeMatching	0.9436670856916244	orofacial cleft|mondo:0000358|doid:0050567
+DOID:0050568	skos:exactMatch	MONDO:0000359	semapv:CompositeMatching	0.9781710009099447	spondylocostal dysostosis|costovertebral dysplasia|mondo:0000359|jarcho-levin syndrome|doid:0050568
+DOID:0050568	skos:exactMatch	MONDO:0007389	semapv:CompositeMatching	0.5	spondylothoracic dysostosis
+DOID:0050568	skos:exactMatch	MONDO:0010180	semapv:CompositeMatching	0.9911764705882353	ordo:2311|jarcho-levin syndrome|costovertebral dysplasia
+DOID:0050568	skos:exactMatch	MONDO:0015826	semapv:CompositeMatching	0.9411764705882352	ordo:1797
+DOID:0050568	skos:exactMatch	MONDO:0020692	semapv:CompositeMatching	0.75	spondylothoracic dysostosis|spondylothoracic dysplasia
+DOID:0050568	skos:exactMatch	NCIT:C125598	semapv:CompositeMatching	0.9248894475888325	spondylocostal dysostosis|mondo:0000359
+DOID:0050569	skos:exactMatch	MONDO:0008869	semapv:CompositeMatching	0.5	bird-headed dwarfism
+DOID:0050569	skos:exactMatch	MONDO:0017950	semapv:CompositeMatching	0.8	microcephalic primordial dwarfism
+DOID:0050569	skos:exactMatch	MONDO:0019342	semapv:CompositeMatching	0.9952902900902936	ordo:808|seckel syndrome|bird-headed dwarfism|harper's syndrome|virchow-seckel dwarfism|mondo:0019342|doid:0050569
+DOID:0050569	skos:exactMatch	NCIT:C125488	semapv:CompositeMatching	0.9831001257074873	seckel syndrome|bird-headed dwarfism|microcephalic primordial dwarfism|mondo:0019342
+DOID:0050570	skos:exactMatch	MONDO:0005500	semapv:CompositeMatching	0.9436670856916244	congenital disorder of glycosylation type i|mondo:0005500|doid:0050570
+DOID:0050571	skos:exactMatch	MONDO:0005501	semapv:CompositeMatching	0.993579704619266	mesh:c535747|congenital disorder of glycosylation type ii|mondo:0005501|doid:0050571
+DOID:0050571	skos:exactMatch	MONDO:0011933	semapv:CompositeMatching	0.8	congenital disorder of glycosylation type ii
+DOID:0050572	skos:broadMatch	MONDO:0011458	semapv:CompositeMatching	0.8	cone-rod dystrophy
